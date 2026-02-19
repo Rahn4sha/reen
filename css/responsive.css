@@ -6,6 +6,29 @@
     
 }
 @media screen and (max-width:992px){
+    .navbar-nav {
+        display: none;
+    }
+
+    .nav-toggle span {
+        display: flex;
+        z-index: 3;
+    }
+
+    .nav {
+        display: flex;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .menu {
+        right: 0;
+        height: 100vh;
+        width: 50%;
+        opacity: 1;
+        visibility: visible;
+    }
 
     .card{
         flex-direction: column;
